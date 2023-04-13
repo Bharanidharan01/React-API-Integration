@@ -1,0 +1,155 @@
+#main{
+    display: flex;
+    flex-direction: column;
+}
+.top-div{
+    height:50px;
+    width: 1366px;
+    background-color: rgb(255, 255, 255);
+    border-bottom: 1px dashed rgb(0, 0, 0) ;
+}
+.middle-div{
+    height: 668px;
+    width: 1366px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+}
+.bottom-div{
+    height:50px;
+    width: 1366px;
+    border-top: 1px dashed rgb(0, 0, 0) ;
+    background-color: rgb(255, 255, 255);
+}
+.left-div{
+    height: 668px;
+    width: 350px;
+    background-color: rgb(255, 255, 255);
+    border-right: 0.5px dashed black;
+}
+.right-div{
+    height: 668px;
+    width: 350px;
+    background-color: rgb(255, 255, 255);
+    border-left: 0.5px dashed black;
+}
+.mid-div{
+    height: 668px;
+    width: 666px;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: left;
+}
+#home-btn{
+    width: 666px;
+    text-align: center;
+    margin-top: 10px;
+}
+.navbar{
+    display: flex;
+    width: 646px;
+
+}
+
+.navbar li{
+    width: 320px;
+    height:auto ;
+    border: none;
+    background-color: white;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+
+.activeBtncss{
+    border-bottom:2px solid rgb(0, 178, 249);
+    font-weight:bold;
+}
+
+ul {
+    list-style-type: none;
+    
+}
+.navbar :link{
+    text-decoration: none;
+    color: black;
+}
+.ipfield{
+    width: 86%;
+    height: 30px;
+    margin-top: 10px;
+}
+
+#tweet{
+    width: 60px;
+    height: 60px;
+    justify-content: center;
+    padding-top: 16px;
+    background-color: #1D9BF0;
+    color: white;
+    border-radius: 34px;
+    padding-left: 21px;
+}
+#input-field{
+    width: 400px;
+    height: 40px;
+
+}
+.input-div{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    gap: 10px;
+    padding-left: 10px;
+    box-sizing: border-box;
+}
+.input-div ul li{
+    margin-top: 10px;
+}
+#refresh-btn
+{
+    width: 646px;
+    height: 35px;
+    
+    background-color: #1D9BF0;
+    color: white;
+    border:none ;
+
+}
+#my-tweets1{
+    width: 646px;
+    height: 500px;
+    overflow-y: scroll;
+}
+#active-tab{
+    border-bottom: 2px solid #1D9BF0;
+    border-radius: 2px;
+}
+#dlt-btn{
+    width: 80px;
+    height: 20px;
+    font-size: 10px;
+}
+#trash-icon{
+    margin-top: 42px;
+    width: 40px;
+    height: 40px;
+    padding-top: 6px;
+    padding-left: 12px;
+}
+#my-tweets1::-webkit-scrollbar {
+    width: 4px;
+   
+  }
+  #my-tweets1::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  #my-tweets1::-webkit-scrollbar-thumb {
+    background: #d8d7d7;
+    border-radius: 10px;
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease-in-out;
+  }
+  #my-tweets1::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }

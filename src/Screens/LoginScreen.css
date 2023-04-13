@@ -1,0 +1,46 @@
+main {
+    width: 1366px;
+    height: 768px;
+    background-color: rgb(206, 206, 206);
+    box-sizing: border-box;
+    justify-content: center; 
+    align-items: center;  
+    
+}
+
+#component {
+    background-color: rgb(206, 206, 206);
+    width: 100vw;
+    box-sizing: border-box;
+    text-align: center;
+    justify-content: center;
+    padding-left: 27%;
+    padding-top:50px;
+}
+
+.bi{
+    color: white;
+    height: 20px;
+    width: 20px;
+}
+#twitter{
+    color: #1D9BF0;
+    font-size: 30px;
+
+}
+.apple{
+    color: black;
+    font-size: 15px;
+    margin-bottom: 4px;
+}
+.google  {
+    /* background: linear-gradient(to right, #4285F4, #EA4335, #FABC05, #34A853);
+     */ color: linear-gradient(to right, #4285F4, #EA4335, #FABC05, #34A853);
+    /* -webkit-background-clip: text; */
+    -webkit-text-fill-color: transparent;
+    margin: 3px;
+  }
+#props-msg{
+    color: red;
+    font-size: 10px;
+}
